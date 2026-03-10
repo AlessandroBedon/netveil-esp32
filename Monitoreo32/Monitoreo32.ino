@@ -5,13 +5,13 @@
 #include "esp_wifi_types.h"
 
 // ── Config ───────────────────────────────────────────────
-const char* ssid       = "_SOFTWARE";
-const char* password   = "D@nt3lTsoftw";
-const char* SERVER_URL = "http://192.168.4.249:5000/api/update";
+const char* ssid       = "Galaxy S23+";
+const char* password   = "D1390@22";
+const char* SERVER_URL = "http://10.32.203.213:5000/api/update";
 
 #define MAX_DEVICES  200
-#define REPORT_MS   5000   // cada 5s envía al Flask
-#define CHANNEL_MS  2000   // cada 2s cambia de canal
+#define REPORT_MS   5000 
+#define CHANNEL_MS  2000  
 
 // ── Estado ───────────────────────────────────────────────
 uint8_t mac_list[MAX_DEVICES][6];
